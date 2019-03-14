@@ -1,21 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327aa694-8a4c-43d0-b601-c51f7141b83a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/OverloadedBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloadedmod/OverloadedBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Overloadedmod.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Overloadedmod.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ModTheSpire.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ModTheSpire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/OverloadedBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/OverloadedBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultRareSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultRareSkill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/events/IdentityCrisisEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/events/IdentityCrisisEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/patches/relics/BottledPlaceholderField$MakeStatEquivalentCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/patches/relics/BottledPlaceholderField$MakeStatEquivalentCopy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/powers/CommonPower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/powers/CommonPower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/powers/RarePower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/powers/RarePower.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/relics/BottledPlaceholderRelic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/relics/BottledPlaceholderRelic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/util/TextureLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloadedmod/util/TextureLoader.class" afterDir="false" />
+    <list default="true" id="8ca3be9e-a80c-489b-a781-bb7bf6b0936a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/OverloadedBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/actions/UncommonPowerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/actions/UncommonPowerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/AbstractDefaultCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractDefaultCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultAttackWithVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultAttackWithVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultCommonAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultCommonAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultCommonPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultCommonPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultCommonSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultCommonSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultRareAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultRareAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultRarePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultRarePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultRareSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultRareSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultSecondMagicNumberSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultSecondMagicNumberSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultUncommonAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultUncommonAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultUncommonPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultUncommonPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/DefaultUncommonSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultUncommonSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/OrbSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/OrbSkill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/cards/cardTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/cardTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/characters/TheOverloaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/events/IdentityCrisisEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/events/IdentityCrisisEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/orbs/DefaultOrb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/orbs/DefaultOrb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/patches/relics/BottledPlaceholderField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/BottledPlaceholderField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/potions/PlaceholderPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/potions/PlaceholderPotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/powers/CommonPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/powers/CommonPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/powers/RarePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/powers/RarePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/relics/BottledPlaceholderRelic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/BottledPlaceholderRelic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/relics/DefaultClickableRelic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/DefaultClickableRelic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/relics/PlaceholderRelic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/PlaceholderRelic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/relics/PlaceholderRelic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/PlaceholderRelic2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/util/IDCheckDontTouchPls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/util/IDCheckDontTouchPls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/util/TextureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/util/TextureLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/variables/DefaultCustomVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/variables/DefaultCustomVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloadedmod/variables/DefaultSecondMagicNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/variables/DefaultSecondMagicNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Character-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Character-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Event-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Event-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Keyword-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Orb-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Orb-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Potion-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Potion-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Power-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/DefaultMod-Relic-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Relic-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Overloaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Overloaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Overloadedmod.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Card-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Character-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Event-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Keyword-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Orb-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Potion-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Power-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/DefaultMod-Relic-Strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/OverloadedBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/actions/UncommonPowerAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/AbstractDefaultCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultAttackWithVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultCommonAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultCommonPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultCommonSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultRareAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultRarePower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultRareSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultSecondMagicNumberSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultUncommonAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultUncommonPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/DefaultUncommonSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/OrbSkill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/cards/cardTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/characters/TheOverloaded$Enums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/characters/TheOverloaded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/events/IdentityCrisisEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/orbs/DefaultOrb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/patches/relics/BottledPlaceholderField$MakeStatEquivalentCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/patches/relics/BottledPlaceholderField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/potions/PlaceholderPotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/powers/CommonPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/powers/RarePower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/relics/BottledPlaceholderRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/relics/DefaultClickableRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/relics/PlaceholderRelic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/relics/PlaceholderRelic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/util/IDCheckDontTouchPls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/util/TextureLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/variables/DefaultCustomVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloadedmod/variables/DefaultSecondMagicNumber.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,25 +101,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Overloadedmod/OverloadedBase.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="390" column="49" lean-forward="true" selection-start-line="390" selection-start-column="49" selection-end-line="390" selection-end-column="49" />
+            <state relative-caret-position="165">
+              <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="72" column="55" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Character-Strings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>overloadedbase</find>
-      <find>OverloadedBase</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Overloaded</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,22 +136,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/ModTheSpire.json" />
-        <option value="$PROJECT_DIR$/src/main/java/Overloadedmod/OverloadedBase.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Character-Strings.json" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="The Overloaded mod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="The Overloaded mod" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -84,13 +168,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="characters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="OverloadedResources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="OverloadedResources" type="462c0819:PsiDirectoryNode" />
+              <item name="eng" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
@@ -110,11 +262,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="327aa694-8a4c-43d0-b601-c51f7141b83a" name="Default Changelist" comment="" />
-      <created>1552570345333</created>
+      <changelist id="8ca3be9e-a80c-489b-a781-bb7bf6b0936a" name="Default Changelist" comment="" />
+      <created>1552576628973</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552570345333</updated>
+      <updated>1552576628973</updated>
     </task>
     <servers />
   </component>
@@ -125,20 +277,20 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.12934947" />
+      <window_info active="true" anchor="right" id="Maven" visible="true" weight="0.13086233" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Json Parser" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -147,24 +299,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ModTheSpire.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="247" column="6" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515">
-          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="231">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Overloadedmod/OverloadedBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Character-Strings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="390" column="49" lean-forward="true" selection-start-line="390" selection-start-column="49" selection-end-line="390" selection-end-column="49" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
