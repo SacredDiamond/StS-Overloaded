@@ -63,7 +63,7 @@
 
     <build>
         <!-- Change this to match your mods name -->
-        <finalName>Overloadedmod</finalName>
+        <finalName>Overloaded</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
