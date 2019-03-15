@@ -11,11 +11,16 @@ import javassist.*;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 
 
-@SpirePatches({ @SpirePatch(clz = DrawCardAction.class, method = "update"), @SpirePatch(clz = ScrapeAction.class, method = "update") })
+
+@SpirePatch(clz = DrawCardAction.class, method = "update")
+
+@SpirePatch(clz = ScrapeAction.class, method = "update")
 
 public class one10BatteryPatch {
+
     @SpireInsertPatch(locator = Locator.class)
-    public static void Insert(final AbstractGameAction self) {
+
+    public static void Insert(AbstractGameAction self) {
         if (AbstractDungeon.player.hasRelic(one10Battery.ID)) {
             AbstractDungeon.player.getRelic(one10Battery.ID).flash();
             AbstractCard top;
@@ -25,13 +30,20 @@ public class one10BatteryPatch {
                 AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(top.makeStatEquivalentCopy(), 1, true, true, false));
             }
         }
+
     }
 
-    private static class Locator extends SpireInsertLocator
-    {
-        public int[] Locate(final CtBehavior ctMethodToPatch) throws Exception {
-            final Matcher finalMatcher = (Matcher)new Matcher.MethodCallMatcher("com.megacrit.cardcrawl.characters.AbstractPlayer", "createHandIsFullDialog");
+    private static class Locator extends SpireInsertLocator {
+
+        @Override
+
+        public int[] Locate(CtBehavior ctMethodToPatch) throws Exception {
+
+            Matcher finalMatcher = new Matcher.MethodCallMatcher("com.megacrit.cardcrawl.characters.AbstractPlayer", "createHandIsFullDialog");
+
             return LineFinder.findInOrder(ctMethodToPatch, finalMatcher);
+
         }
+
     }
 }

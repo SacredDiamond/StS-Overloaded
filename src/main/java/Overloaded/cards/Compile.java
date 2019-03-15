@@ -44,7 +44,7 @@ public class Compile extends AbstractOverloadCard {
 
     private static final int COST = 1;
     private static final int DRAW = 5;
-    private static final int EXAUST = 3;
+    private static final int EXAUST = 2;
 
 
     // /STAT DECLARATION/

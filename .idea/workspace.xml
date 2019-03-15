@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3be9e-a80c-489b-a781-bb7bf6b0936a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractDefaultCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractOverloadCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/cards/DefaultSecondMagicNumberSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/OverloadSecondMagicNumberSkill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/cards/cardTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/cardTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/relics/PlaceholderRelic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/variables/DefaultSecondMagicNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/variables/DefaultSecondMagicNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/images/char/sphere/skeleton.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/images/char/sphere/skeleton.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Relic-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Relic-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Overloaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Overloaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/OverloadedBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/OverloadedBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/cards/AbstractDefaultCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/cards/DefaultSecondMagicNumberSkill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/cards/cardTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/cards/cardTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/characters/TheOverloaded.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/characters/TheOverloaded.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/relics/PlaceholderRelic2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/variables/DefaultSecondMagicNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/variables/DefaultSecondMagicNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/images/char/sphere/skeleton.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OverloadedResources/images/char/sphere/skeleton.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Relic-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Relic-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="276">
+              <caret line="29" column="90" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,22 +45,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/BottledPlaceholderField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="212">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="64" column="97" selection-start-line="64" selection-start-column="97" selection-end-line="64" selection-end-column="97" />
+            <state relative-caret-position="223">
+              <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -131,13 +100,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Character-Strings.json" />
         <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/images/char/sphere/skeleton.json" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractOverloadCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" />
         <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Relic-Strings.json" />
         <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" />
       </list>
     </option>
   </component>
@@ -305,7 +274,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,7 +283,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="64" column="97" selection-start-line="64" selection-start-column="97" selection-end-line="64" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/OverloadSecondMagicNumberSkill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -473,16 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/PlaceholderRelic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -499,10 +450,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="276">
+          <caret line="29" column="90" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
           </folding>
         </state>
       </provider>

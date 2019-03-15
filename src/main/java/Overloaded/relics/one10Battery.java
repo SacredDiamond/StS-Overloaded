@@ -10,6 +10,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import Overloaded.util.TextureLoader;
 import Overloaded.patches.relics.one10BatteryPatch;
+import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 import static Overloaded.OverloadedBase.makeRelicOutlinePath;
 import static Overloaded.OverloadedBase.makeRelicPath;
@@ -35,6 +36,10 @@ public class one10Battery extends CustomRelic {
     @Override
     public String getUpdatedDescription() {
         return DESCRIPTIONS[0];
+    }
+
+    public AbstractRelic makeCopy() {
+        return new one10Battery();
     }
 
 }
