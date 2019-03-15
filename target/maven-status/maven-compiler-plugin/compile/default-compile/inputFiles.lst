@@ -1,8 +1,9 @@
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\DefaultRareSkill.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\cardTemplate.java
-C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\DefaultSecondMagicNumberSkill.java
+C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\Compile.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\OrbSkill.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\relics\PlaceholderRelic.java
+C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\OverloadSecondMagicNumberSkill.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\orbs\DefaultOrb.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\DefaultAttackWithVariable.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\DefaultCommonAttack.java
@@ -22,10 +23,11 @@ C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overl
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\potions\PlaceholderPotion.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\variables\DefaultSecondMagicNumber.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\relics\BottledPlaceholderRelic.java
+C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\patches\relics\one10BatteryPatch.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\DefaultRarePower.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\variables\DefaultCustomVariable.java
+C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\AbstractOverloadCard.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\OverloadedBase.java
-C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\cards\AbstractDefaultCard.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\actions\UncommonPowerAction.java
-C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\relics\PlaceholderRelic2.java
+C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\relics\one10Battery.java
 C:\Users\kashi\Documents\sts mods\StS-overloaded\StS-DefaultModBase-master\Overloaded\src\main\java\Overloaded\powers\CommonPower.java

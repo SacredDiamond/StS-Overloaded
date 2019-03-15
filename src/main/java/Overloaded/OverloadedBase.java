@@ -25,7 +25,7 @@ import Overloaded.potions.PlaceholderPotion;
 import Overloaded.relics.BottledPlaceholderRelic;
 import Overloaded.relics.DefaultClickableRelic;
 import Overloaded.relics.PlaceholderRelic;
-import Overloaded.relics.PlaceholderRelic2;
+import Overloaded.relics.one10Battery;
 import Overloaded.util.IDCheckDontTouchPls;
 import Overloaded.util.TextureLoader;
 import Overloaded.variables.DefaultCustomVariable;
@@ -311,12 +311,10 @@ public class OverloadedBase implements
         logger.info("Adding relics");
 
         // This adds a character specific relic. Only when you play with the mentioned color, will you get this relic.
-        BaseMod.addRelicToCustomPool(new PlaceholderRelic(), TheOverloaded.Enums.COLOR_GRAY);
-        BaseMod.addRelicToCustomPool(new BottledPlaceholderRelic(), TheOverloaded.Enums.COLOR_GRAY);
-        BaseMod.addRelicToCustomPool(new DefaultClickableRelic(), TheOverloaded.Enums.COLOR_GRAY);
+        BaseMod.addRelicToCustomPool(new one10Battery(), TheOverloaded.Enums.COLOR_GRAY);
 
         // This adds a relic to the Shared pool. Every character can find this relic.
-        BaseMod.addRelic(new PlaceholderRelic2(), RelicType.SHARED);
+       // BaseMod.addRelic(new one10Battery(), RelicType.SHARED);
 
         // Mark relics as seen (the others are all starters so they're marked as seen in the character file
         UnlockTracker.markRelicAsSeen(BottledPlaceholderRelic.ID);
@@ -345,7 +343,7 @@ public class OverloadedBase implements
         // when generating card rewards/shop screen items.
 
         BaseMod.addCard(new OrbSkill());
-        BaseMod.addCard(new DefaultSecondMagicNumberSkill());
+        BaseMod.addCard(new OverloadSecondMagicNumberSkill());
         BaseMod.addCard(new DefaultCommonAttack());
         BaseMod.addCard(new DefaultAttackWithVariable());
         BaseMod.addCard(new DefaultCommonSkill());
@@ -357,12 +355,14 @@ public class OverloadedBase implements
         BaseMod.addCard(new DefaultRareSkill());
         BaseMod.addCard(new DefaultRarePower());
 
+        BaseMod.addCard(new Compile());
+
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards
         // This is so that they are all "seen" in the library, for people who like to look at the card list
         // before playing your mod.
         UnlockTracker.unlockCard(OrbSkill.ID);
-        UnlockTracker.unlockCard(DefaultSecondMagicNumberSkill.ID);
+        UnlockTracker.unlockCard(OverloadSecondMagicNumberSkill.ID);
         UnlockTracker.unlockCard(DefaultCommonAttack.ID);
         UnlockTracker.unlockCard(DefaultAttackWithVariable.ID);
         UnlockTracker.unlockCard(DefaultCommonSkill.ID);

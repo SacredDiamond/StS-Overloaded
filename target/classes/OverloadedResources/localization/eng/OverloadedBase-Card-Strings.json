@@ -1,4 +1,10 @@
 {
+  "Overloaded:Compile": {
+    "NAME": "Compile",
+    "DESCRIPTION": "Draw !M! cards. NL Exhaust !Overloaded:SecondMagic! cards."
+  },
+
+
   "Overloaded:DefaultCommonAttack": {
     "NAME": "Strike",
     "DESCRIPTION": "Deal !D! Damage. NL [#0000ff]This[] [#ff0000]Is[] [#ffff00]How[] [#88888]color[] [#ff00ff]works.[]"
@@ -42,7 +48,7 @@
     "NAME": "Special Strike",
     "DESCRIPTION": "Deal !D! Damage [E] times. NL (Deal !Overloaded:ENERGY_DAMAGE! damage total.)"
   },
-  "Overloaded:DefaultSecondMagicNumberSkill": {
+  "Overloaded:OverloadSecondMagicNumberSkill": {
     "NAME": "Cool 2 Number Card",
     "DESCRIPTION": "Apply !M! vulnerable and !Overloaded:SecondMagic! poison to an enemy."
   },

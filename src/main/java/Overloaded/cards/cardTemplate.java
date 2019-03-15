@@ -13,8 +13,8 @@ import Overloaded.characters.TheOverloaded;
 
 import static Overloaded.OverloadedBase.makeCardPath;
 
-// public class ${NAME} extends AbstractDefaultCard
-public class cardTemplate extends AbstractDefaultCard {
+// public class ${NAME} extends AbstractOverloadCard
+public class cardTemplate extends AbstractOverloadCard {
 
     /*
      * "Hey, I wanna make a bunch of cards now." - You, probably.

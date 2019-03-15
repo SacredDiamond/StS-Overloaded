@@ -1,5 +1,7 @@
 package Overloaded.characters;
 
+import Overloaded.relics.one10Battery;
+import basemod.BaseMod;
 import basemod.abstracts.CustomPlayer;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -22,9 +24,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import Overloaded.OverloadedBase;
 import Overloaded.cards.*;
-import Overloaded.relics.DefaultClickableRelic;
-import Overloaded.relics.PlaceholderRelic;
-import Overloaded.relics.PlaceholderRelic2;
 
 import java.util.ArrayList;
 
@@ -98,11 +97,14 @@ public class TheOverloaded extends CustomPlayer {
     // =============== CHARACTER CLASS START =================
 
     public TheOverloaded(String name, PlayerClass setClass) {
-        super(name, setClass, orbTextures,
-                "OverloadedResources/images/char/defaultCharacter/orb/vfx.png", (float[]) null,null/*
-                new SpriterAnimation(
-                        "OverloadedResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.scml"*/);
-        this.initializeClass((String)null, THE_DEFAULT_SHOULDER_2, THE_DEFAULT_SHOULDER_1, THE_DEFAULT_CORPSE, this.getLoadout(), 0.0f, 0.0f, 300.0f, 180.0f, new EnergyManager(3));
+        super(name, setClass, orbTextures, "OverloadedResources/images/char/defaultCharacter/orb/vfx.png", (String)null, (String)null);
+       // super(name, setClass, orbTextures,
+         //       "OverloadedResources/images/char/defaultCharacter/orb/vfx.png", (float[]) null,null/*
+           //     new SpriterAnimation(
+             //           "OverloadedResources/images/char/defaultCharacter/Spriter/theDefaultAnimation.scml"*/);
+        BaseMod.MAX_HAND_SIZE = 6;
+
+        this.initializeClass("", THE_DEFAULT_SHOULDER_2, THE_DEFAULT_SHOULDER_1, THE_DEFAULT_CORPSE, this.getLoadout(), 1.0f, 1.0f, 300.0f, 180.0f, new EnergyManager(3));
 this.reloadAnimation();
 
         // =============== TEXTURES, ENERGY, LOADOUT =================  
@@ -122,8 +124,8 @@ this.reloadAnimation();
         loadAnimation(
                 THE_DEFAULT_SKELETON_ATLAS,
                 THE_DEFAULT_SKELETON_JSON,
-                1.0f);
-        AnimationState.TrackEntry e = state.setAnimation(0, "animation", true);
+                2.0f);
+        AnimationState.TrackEntry e = state.setAnimation(0, "Idle", true);
         e.setTime(e.getEndTime() * MathUtils.random());
 
         // =============== /ANIMATIONS/ =================
@@ -139,8 +141,9 @@ this.reloadAnimation();
     }
 
     public void reloadAnimation() {
-        this.loadAnimation(THE_DEFAULT_SKELETON_ATLAS, THE_DEFAULT_SKELETON_JSON, 1.5f);
-        this.state.setAnimation(0, "idle", true);
+        this.loadAnimation(THE_DEFAULT_SKELETON_ATLAS, THE_DEFAULT_SKELETON_JSON, 2.0f);
+        this.state.setAnimation(0, "Idle", true);
+
     }
 
     // =============== /CHARACTER CLASS END/ =================
@@ -173,7 +176,7 @@ this.reloadAnimation();
         retVal.add(DefaultRarePower.ID);
 
         retVal.add(DefaultAttackWithVariable.ID);
-        retVal.add(DefaultSecondMagicNumberSkill.ID);
+        retVal.add(OverloadSecondMagicNumberSkill.ID);
         retVal.add(OrbSkill.ID);
         return retVal;
     }
@@ -182,13 +185,8 @@ this.reloadAnimation();
     public ArrayList<String> getStartingRelics() {
         ArrayList<String> retVal = new ArrayList<>();
 
-        retVal.add(PlaceholderRelic.ID);
-        retVal.add(PlaceholderRelic2.ID);
-        retVal.add(DefaultClickableRelic.ID);
-
-        UnlockTracker.markRelicAsSeen(PlaceholderRelic.ID);
-        UnlockTracker.markRelicAsSeen(PlaceholderRelic2.ID);
-        UnlockTracker.markRelicAsSeen(DefaultClickableRelic.ID);
+        retVal.add(one10Battery.ID);
+        UnlockTracker.markRelicAsSeen(one10Battery.ID);
 
         return retVal;
     }
