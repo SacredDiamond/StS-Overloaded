@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3be9e-a80c-489b-a781-bb7bf6b0936a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Overloaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Overloaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch$Locator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch$Locator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/relics/one10Battery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/relics/one10Battery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="321" column="5" lean-forward="true" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
+            <state relative-caret-position="4828">
+              <caret line="321" column="5" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -27,17 +33,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-555">
+            <state relative-caret-position="425">
               <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="29" column="90" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="90" />
+            <state relative-caret-position="27">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,16 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1403#1404#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-79">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -62,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+            <state relative-caret-position="595">
+              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -104,9 +105,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" />
       </list>
     </option>
   </component>
@@ -138,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,15 +205,6 @@
               <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
-              <item name="relics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Overloadedmod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Overloaded" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,7 +229,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,8 +266,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32980332" />
@@ -283,7 +276,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +288,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.13086233" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.13086233" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Json Parser" order="6" />
     </layout>
@@ -399,20 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="321" column="5" lean-forward="true" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/characters/AbstractPlayer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -448,31 +427,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" column="90" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="4828">
+          <caret line="321" column="5" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        <state relative-caret-position="595">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="-79">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
           </folding>
         </state>
       </provider>
