@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3be9e-a80c-489b-a781-bb7bf6b0936a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Overloaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Overloaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch$Locator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch$Locator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/relics/one10Battery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/relics/one10Battery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="112">
+              <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -266,7 +259,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -276,7 +268,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="112">
+          <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
