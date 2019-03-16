@@ -3,7 +3,6 @@ package Overloaded;
 import basemod.BaseMod;
 import basemod.ModLabel;
 import basemod.ModPanel;
-import basemod.helpers.RelicType;
 import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
@@ -23,8 +22,6 @@ import Overloaded.characters.TheOverloaded;
 import Overloaded.events.IdentityCrisisEvent;
 import Overloaded.potions.PlaceholderPotion;
 import Overloaded.relics.BottledPlaceholderRelic;
-import Overloaded.relics.DefaultClickableRelic;
-import Overloaded.relics.PlaceholderRelic;
 import Overloaded.relics.one10Battery;
 import Overloaded.util.IDCheckDontTouchPls;
 import Overloaded.util.TextureLoader;
@@ -356,6 +353,7 @@ public class OverloadedBase implements
         BaseMod.addCard(new DefaultRarePower());
 
         BaseMod.addCard(new Compile());
+        BaseMod.addCard(new RechargeableDefend());
 
         logger.info("Making sure the cards are unlocked.");
         // Unlock the cards

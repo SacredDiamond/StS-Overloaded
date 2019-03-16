@@ -4,7 +4,6 @@ import Overloaded.OverloadedBase;
 import Overloaded.characters.TheOverloaded;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.ExhaustAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -44,7 +43,7 @@ public class Compile extends AbstractOverloadCard {
 
     private static final int COST = 1;
     private static final int DRAW = 5;
-    private static final int EXAUST = 2;
+    private static final int EXHAUST = 2;
 
 
     // /STAT DECLARATION/
@@ -54,7 +53,7 @@ public class Compile extends AbstractOverloadCard {
         super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 
 magicNumber = baseMagicNumber = DRAW;
-OtherMagicNumber = BaseOtherMagicNumber = EXAUST;
+OtherMagicNumber = BaseOtherMagicNumber = EXHAUST;
 
     }
 

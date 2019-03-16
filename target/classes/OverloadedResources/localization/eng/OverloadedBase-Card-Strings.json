@@ -3,7 +3,10 @@
     "NAME": "Compile",
     "DESCRIPTION": "Draw !M! cards. NL Exhaust !Overloaded:SecondMagic! cards."
   },
-
+  "Overloaded:RechargeableDefend": {
+    "NAME": "Rechargeable Defend",
+    "DESCRIPTION": " Overwrite NL Gain !B! Block."
+  },
 
   "Overloaded:DefaultCommonAttack": {
     "NAME": "Strike",

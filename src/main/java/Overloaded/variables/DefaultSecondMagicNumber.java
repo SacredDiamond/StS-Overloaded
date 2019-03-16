@@ -36,6 +36,6 @@ public class DefaultSecondMagicNumber extends DynamicVariable {
 
     @Override
     public boolean upgraded(AbstractCard card) {
-        return ((AbstractOverloadCard) card).upgradedDefaultSecondMagicNumber;
+        return ((AbstractOverloadCard) card).upgradedOtherMagicNumber;
     }
 }

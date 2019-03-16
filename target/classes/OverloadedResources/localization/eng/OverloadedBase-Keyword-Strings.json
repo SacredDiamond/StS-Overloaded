@@ -16,5 +16,13 @@
       "multikeyword"
     ],
     "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest is to match keywords like the single word keyword."
+  },
+
+  {
+    "NAMES": [
+      "Overwrite",
+      "Overwritten"
+    ],
+    "DESCRIPTION": "When the card costs more than the energy you currently have, it becomes free but playing it Exhausts a card in your hand."
   }
 ]

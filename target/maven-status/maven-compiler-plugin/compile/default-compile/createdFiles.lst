@@ -12,6 +12,7 @@ Overloaded\cards\cardTemplate.class
 Overloaded\potions\PlaceholderPotion.class
 Overloaded\cards\DefaultRareSkill.class
 Overloaded\cards\AbstractOverloadCard.class
+Overloaded\cards\RechargeableDefend.class
 Overloaded\cards\DefaultRarePower.class
 Overloaded\patches\relics\BottledPlaceholderField$MakeStatEquivalentCopy.class
 Overloaded\characters\TheOverloaded$Enums.class
