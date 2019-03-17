@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3be9e-a80c-489b-a781-bb7bf6b0936a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/RechargeableDefend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractOverloadCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractOverloadCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Overloaded/variables/DefaultSecondMagicNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Overloaded/variables/DefaultSecondMagicNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Keyword-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Overloaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Overloaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/OverloadedBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/OverloadedBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/cards/AbstractOverloadCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/cards/AbstractOverloadCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/cards/Compile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/cards/Compile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch$Locator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch$Locator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/patches/relics/one10BatteryPatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Overloaded/variables/DefaultSecondMagicNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Overloaded/variables/DefaultSecondMagicNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OverloadedResources/localization/eng/OverloadedBase-Keyword-Strings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +37,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            <state relative-caret-position="227">
+              <caret line="51" column="87" lean-forward="true" selection-start-line="51" selection-start-column="87" selection-end-line="51" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/common/MakeTempCardInDrawPileAction.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="57" selection-start-line="57" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -85,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/RechargeableDefend.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-33">
-              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,15 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="25" column="141" selection-start-line="25" selection-start-column="141" selection-end-line="25" selection-end-column="141" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -162,13 +141,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/characters/TheOverloaded.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/relics/one10Battery.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/Compile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/OverloadedBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/RechargableDefend.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/RechargeableDefend.java" />
         <option value="$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractOverloadCard.java" />
         <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Card-Strings.json" />
         <option value="$PROJECT_DIR$/src/main/resources/OverloadedResources/localization/eng/OverloadedBase-Keyword-Strings.json" />
+        <option value="$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java" />
       </list>
     </option>
   </component>
@@ -329,7 +308,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" weight="0.32980332" />
@@ -349,7 +328,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.11497731" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.11497731" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Json Parser" order="6" />
     </layout>
@@ -443,20 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/common/DiscardSpecificCardAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/common/MakeTempCardInDrawPileAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/relics/PlaceholderRelic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -502,22 +467,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractOverloadCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-            <element signature="e#2336#2337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/RechargeableDefend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -535,10 +488,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/common/DiscardAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/cards/CardGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1073" column="16" selection-start-line="1073" selection-start-column="16" selection-end-line="1073" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/common/DiscardSpecificCardAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Steam/steamapps/common/SlayTheSpire/desktop-1.0.jar!/com/megacrit/cardcrawl/actions/common/MakeTempCardInDrawPileAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="57" selection-start-line="57" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/cards/AbstractOverloadCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Overloaded/patches/relics/one10BatteryPatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state relative-caret-position="227">
+          <caret line="51" column="87" lean-forward="true" selection-start-line="51" selection-start-column="87" selection-end-line="51" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
