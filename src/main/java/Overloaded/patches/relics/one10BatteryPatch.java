@@ -15,6 +15,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.DrawCardNextTurnPower;
 
 import Overloaded.relics.one10Battery;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToDiscardEffect;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToDrawPileEffect;
 import javassist.CtBehavior;
 
@@ -45,14 +46,20 @@ public class one10BatteryPatch {
                     logger.info("how much is self.amount? | " + self.amount);
                     logger.info("what is i? | " + i);
 
+
                     top = draw.group.get(draw.group.size() - 1 - i);
                     logger.info("what is the top card of the deck? | " + top);
 
-                    //AbstractDungeon.effectList.add(new ShowCardAndAddToDrawPileEffect(AbstractDungeon.player.drawPile.getTopCard(), true, false));
-                    //AbstractDungeon.player.drawPile.getTopCard().moveToDiscardPile();
 
-                    AbstractDungeon.actionManager.addToBottom(new DiscardSpecificCardAction(top, draw));
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(top.makeStatEquivalentCopy(), 1, true, true, false));
+                    //AbstractDungeon.effectList.add(new ShowCardAndAddToDrawPileEffect(AbstractDungeon.player.drawPile.getTopCard(), true, false));
+                  //  AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(top));
+
+                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(draw.getSpecificCard(top).makeStatEquivalentCopy(), 1, true, true, false));
+                    draw.getSpecificCard(top).moveToDiscardPile();
+
+                   // AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(top.makeStatEquivalentCopy(), 1, true, true, false));
+                    //AbstractDungeon.actionManager.addToBottom(new DiscardSpecificCardAction(top, draw));
+
                 }
 
             }
