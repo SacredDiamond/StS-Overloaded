@@ -37,43 +37,12 @@ public class one10BatteryPatch {
     @SpireInsertPatch(locator = Locator.class)
     public static void Insert(AbstractGameAction self) {
 
-            logger.info("player has 110% battery? | " + AbstractDungeon.player.hasRelic(one10Battery.ID) );
-            logger.info("what is self? | " + self);
-            logger.info("how much is self.amount? | " + self.amount);
-
-            if (AbstractDungeon.player.hasRelic(one10Battery.ID)) {
-                AbstractDungeon.player.getRelic(one10Battery.ID).flash();
-                AbstractCard top;
-                CardGroup draw = AbstractDungeon.player.drawPile;
-
-                logger.info("-.-.-.- entering loop -.-.-.-.-");
-                for(int i = 0; i<self.amount;i++) {
-                    logger.info("what is self? | " + self);
-                    logger.info("how much is self.amount? | " + self.amount);
-                    logger.info("what is i? | " + i);
-
-                    
-
-                    top = draw.group.get(draw.group.size() - 1 - i);
-                    logger.info("what is the top card of the deck? | " + top);
-
-
-                    //AbstractDungeon.effectList.add(new ShowCardAndAddToDrawPileEffect(AbstractDungeon.player.drawPile.getTopCard(), true, false));
-                  //  AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(top));
-
-                    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(draw.getSpecificCard(top).makeStatEquivalentCopy(), 1, true, true, false));
-                   /// draw.getSpecificCard(top).moveToDiscardPile();
-
-
-
-                   // AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(top.makeStatEquivalentCopy(), 1, true, true, false));
-                    AbstractDungeon.actionManager.addToBottom(new DiscardSpecificCardAction(top, draw));
-
-                }
-
-            }
+        if (AbstractDungeon.player.hasRelic(one10Battery.ID)) {
+            AbstractDungeon.player.getRelic(one10Battery.ID).flash();
 
         }
+
+    }
 
     private static class Locator extends SpireInsertLocator {
         @Override
@@ -84,30 +53,3 @@ public class one10BatteryPatch {
     }
 }
 
-/*
-        logger.info("player has 110% battery? | " + AbstractDungeon.player.hasRelic(one10Battery.ID) );
-        logger.info("what is self? | " + self);
-        logger.info("how much is self.amount? | " + self.amount);
-
-        if (AbstractDungeon.player.hasRelic(one10Battery.ID)) {
-            AbstractDungeon.player.getRelic(one10Battery.ID).flash();
-            AbstractCard top;
-
-            logger.info("-.-.-.- entering loop -.-.-.-.-");
-            for(int i = 0; i<self.amount;i++) {
-                logger.info("what is self? | " + self);
-                logger.info("how much is self.amount? | " + self.amount);
-                logger.info("what is i? | " + i);
-
-                top = AbstractDungeon.player.drawPile.getTopCard();
-                logger.info("what is the top card of the deck? | " + top);
-
-                AbstractDungeon.actionManager.addToBottom(new DiscardSpecificCardAction(top, AbstractDungeon.player.drawPile));
-                AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(top.makeStatEquivalentCopy(), 1, true, true, false));
-            }
-
-            logger.info("player has 110% battery? | " + AbstractDungeon.player.hasRelic(one10Battery.ID) );
-            logger.info("what is self? | " + self);
-            logger.info("how much is self.amount? | " + self.amount);
-        }
- */
