@@ -23,8 +23,14 @@ import java.util.logging.Logger;
 
 import static Overloaded.OverloadedBase.logger;
 
-@SpirePatch(clz = DrawCardAction.class, method = "update")
-@SpirePatch(clz = ScrapeAction.class, method = "update")
+@SpirePatch(
+        clz = DrawCardAction.class,
+        method = "update"
+)
+@SpirePatch(
+        clz = ScrapeAction.class,
+        method = "update"
+)
 public class one10BatteryPatch {
 
 
