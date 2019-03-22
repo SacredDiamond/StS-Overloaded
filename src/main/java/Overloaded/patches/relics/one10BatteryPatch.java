@@ -36,8 +36,8 @@ public class one10BatteryPatch {
     public static SpireReturn Insert(AbstractGameAction __instance) {
         if (AbstractDungeon.player.hasRelic(one10Battery.ID)) {
             AbstractDungeon.player.getRelic(one10Battery.ID).flash();
-            int amountOfCardsOverDrawn = __instance.amount - BaseMod.DEFAULT_MAX_HAND_SIZE;
-            AbstractDungeon.actionManager.addToTop(new OneTenBatteryAction(amountOfCardsOverDrawn));
+            AbstractDungeon.actionManager.addToTop(new OneTenBatteryAction(__instance.amount));
+            __instance.isDone = true;
             return SpireReturn.Return(null);
         }
         return SpireReturn.Continue();
