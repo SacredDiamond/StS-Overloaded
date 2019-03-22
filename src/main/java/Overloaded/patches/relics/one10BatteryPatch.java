@@ -35,7 +35,7 @@ public class one10BatteryPatch {
 
 
     @SpireInsertPatch(locator = Locator.class)
-    public static void Insert(AbstractGameAction self) {
+    public static void Insert(AbstractGameAction __instance) {
 
         if (AbstractDungeon.player.hasRelic(one10Battery.ID)) {
             AbstractDungeon.player.getRelic(one10Battery.ID).flash();
