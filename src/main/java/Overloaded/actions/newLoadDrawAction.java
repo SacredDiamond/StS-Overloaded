@@ -53,6 +53,7 @@ public class newLoadDrawAction extends AbstractGameAction {
         if (this.amount <= 0) {
             this.isDone = true;
         } else {
+
             int deckSize = AbstractDungeon.player.drawPile.size();
             int discardSize = AbstractDungeon.player.discardPile.size();
             int overdraw = AbstractDungeon.player.hand.size() + amount - BaseMod.MAX_HAND_SIZE;

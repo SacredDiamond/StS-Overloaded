@@ -7,6 +7,10 @@
     "NAME": "Rechargeable Defend",
     "DESCRIPTION": " Overwrite. NL Gain !B! Block."
   },
+  "Overloaded:Chargeup": {
+    "NAME": "Gear up",
+    "DESCRIPTION": "Deal !D! damage. NL When Overdrawn, increase this card's damage by !M! for the rest of combat."
+  },
 
   "Overloaded:DefaultCommonAttack": {
     "NAME": "Strike",

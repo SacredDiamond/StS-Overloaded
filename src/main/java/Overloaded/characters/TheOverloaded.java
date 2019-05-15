@@ -164,20 +164,21 @@ this.reloadAnimation();
         logger.info("Begin loading starter Deck Strings");
 
         retVal.add(DefaultCommonAttack.ID);
-        retVal.add(DefaultUncommonAttack.ID);
-        retVal.add(DefaultRareAttack.ID);
 
-        retVal.add(DefaultCommonSkill.ID);
-        retVal.add(DefaultUncommonSkill.ID);
-        retVal.add(DefaultRareSkill.ID);
-
-        retVal.add(DefaultCommonPower.ID);
-        retVal.add(DefaultUncommonPower.ID);
-        retVal.add(DefaultRarePower.ID);
-
-        retVal.add(DefaultAttackWithVariable.ID);
         retVal.add(OverloadSecondMagicNumberSkill.ID);
-        retVal.add(OrbSkill.ID);
+
+        retVal.add(RechargeableDefend.ID);
+        retVal.add(RechargeableDefend.ID);
+        retVal.add(RechargeableDefend.ID);
+
+        retVal.add(Chargeup.ID);
+
+        retVal.add(Compile.ID);
+        retVal.add(Compile.ID);
+
+
+
+
         return retVal;
     }
 

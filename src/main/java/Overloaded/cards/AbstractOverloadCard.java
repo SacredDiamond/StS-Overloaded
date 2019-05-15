@@ -49,7 +49,7 @@ public abstract class AbstractOverloadCard extends CustomCard {
 
     }
 
-    
+public void onOverdraw(){}
 
     public void upgradeDefaultSecondMagicNumber(int amount) { // If we're upgrading (read: changing) the number. Note "upgrade" and NOT "upgraded" - 2 different things. One is a boolean, and then this one is what you will usually use - change the integer by how much you want to upgrade.
         BaseOtherMagicNumber += amount; // Upgrade the number by the amount you provide in your card.

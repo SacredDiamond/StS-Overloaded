@@ -352,6 +352,7 @@ public class OverloadedBase implements
         BaseMod.addCard(new DefaultRareSkill());
         BaseMod.addCard(new DefaultRarePower());
 
+        BaseMod.addCard(new Chargeup());
         BaseMod.addCard(new Compile());
         BaseMod.addCard(new RechargeableDefend());
 

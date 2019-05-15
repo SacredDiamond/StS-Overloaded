@@ -1,5 +1,6 @@
 package Overloaded.actions;
 
+import Overloaded.cards.AbstractOverloadCard;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.EmptyDeckShuffleAction;
@@ -22,6 +23,12 @@ public class OverdrawAction extends AbstractGameAction {
 
                 if (amount < AbstractDungeon.player.drawPile.size()) {
                     AbstractCard cardToDupe = AbstractDungeon.player.drawPile.getNCardFromTop(amount);
+
+                    if(cardToDupe instanceof AbstractOverloadCard) {
+                        AbstractOverloadCard Over = (AbstractOverloadCard)cardToDupe;
+                        Over.onOverdraw();
+                    }
+
                     AbstractDungeon.player.drawPile.moveToDiscardPile(cardToDupe);
                     AbstractDungeon.actionManager.addToTop(new MakeTempCardInDrawPileAction(cardToDupe, 1, true, true));
                 }
