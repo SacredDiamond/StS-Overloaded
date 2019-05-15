@@ -1,25 +1,6 @@
 package Overloaded.patches.relics;
 
-import Overloaded.actions.OneTenBatteryAction;
-import basemod.BaseMod;
-import com.evacipated.cardcrawl.modthespire.lib.*;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.*;
-import com.megacrit.cardcrawl.actions.defect.ScrapeAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.powers.DrawCardNextTurnPower;
-
-import Overloaded.relics.one10Battery;
-import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToDiscardEffect;
-import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToDrawPileEffect;
-import javassist.CtBehavior;
-
-import java.util.logging.Logger;
-
-import static Overloaded.OverloadedBase.logger;
+/*
 
 @SpirePatch(
         clz = DrawCardAction.class,
@@ -37,7 +18,7 @@ public class one10BatteryPatch {
         if (AbstractDungeon.player.hasRelic(one10Battery.ID)) {
             AbstractDungeon.player.getRelic(one10Battery.ID).flash();
 
-            AbstractDungeon.actionManager.addToTop(new OneTenBatteryAction(__instance.amount));
+            AbstractDungeon.actionManager.addToTop(new LoadDrawAction(__instance.amount));
 
             if((AbstractDungeon.player.drawPile.size() < __instance.amount) &&(AbstractDungeon.player.discardPile.size() > 0) ){
 
@@ -60,3 +41,4 @@ public class one10BatteryPatch {
     }
 }
 
+*/

@@ -1,23 +1,19 @@
 package Overloaded.relics;
 
 import Overloaded.OverloadedBase;
+import Overloaded.actions.LoadDrawAction;
+import Overloaded.actions.newLoadDrawAction;
 import basemod.BaseMod;
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import Overloaded.util.TextureLoader;
-import Overloaded.patches.relics.one10BatteryPatch;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 import static Overloaded.OverloadedBase.makeRelicOutlinePath;
 import static Overloaded.OverloadedBase.makeRelicPath;
 
 public class one10Battery extends CustomRelic {
-    /*
-     * https://github.com/daviscook477/BaseMod/wiki/Custom-Relics
-     *
-     * At the start of each combat, gain 1 Strength (i.e. Vajra)
-     */
 
     // ID, images, text.
     public static final String ID = OverloadedBase.makeID("one10Battery");
@@ -27,6 +23,11 @@ public class one10Battery extends CustomRelic {
 
     public one10Battery() {
         super(ID, IMG, OUTLINE, RelicTier.STARTER, LandingSound.SOLID);
+    }
+
+    @Override
+    public void atTurnStartPostDraw() {
+        AbstractDungeon.actionManager.addToBottom(new newLoadDrawAction(1));
     }
 
     // Description

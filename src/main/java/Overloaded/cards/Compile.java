@@ -1,6 +1,8 @@
 package Overloaded.cards;
 
 import Overloaded.OverloadedBase;
+import Overloaded.actions.LoadDrawAction;
+import Overloaded.actions.newLoadDrawAction;
 import Overloaded.characters.TheOverloaded;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.ExhaustAction;
@@ -60,7 +62,7 @@ OtherMagicNumber = BaseOtherMagicNumber = EXHAUST;
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, magicNumber));
+        AbstractDungeon.actionManager.addToBottom(new newLoadDrawAction(magicNumber));
         AbstractDungeon.actionManager.addToBottom(new ExhaustAction(p, p, OtherMagicNumber, false));
     }
 

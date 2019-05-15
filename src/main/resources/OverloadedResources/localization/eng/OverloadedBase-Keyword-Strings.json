@@ -24,5 +24,21 @@
       "Overwritten"
     ],
     "DESCRIPTION": "When the card costs more than the energy you currently have, it becomes free but playing it Exhausts a card in your hand."
+  },
+  {
+    "NAMES": [
+      "Load",
+      "Loaded"
+
+    ],
+    "DESCRIPTION": "Loaded cards will be drawn from the top of your draw pile if your hand isn't full, otherwise they will be Overdrawn."
+  },
+  {
+    "NAMES": [
+      "Overdraw",
+      "Overdrawn"
+
+    ],
+    "DESCRIPTION": "Overdrawn cards will be discarded, then a copy of that card will be added to your draw pile."
   }
 ]
